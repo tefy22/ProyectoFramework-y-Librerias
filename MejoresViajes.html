@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Mejores Viajes</title>
+	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="materialize/css/estilos.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.js"></script>
+</head>
+<body class="contenedor">
+<!--CONTENEDOR GENERAL-->
+<div class="container">
+	<div class="row">
+		<!--CONTENEDOR DE LA CABECERA-->
+		<header class="col l3  hide-on-med-and-down">
+			<img src="img/LogoTurismo.png" class="logo">
+			<span class="white-text titulo-cabecera">Viajando Ando!!</span>
+		</header>
+		<!--CONTENEDOR DE LA NAVEGACION-->
+		<div class="col l9 m12 s12">
+			<a href="BlogTurismo.html" class="btn-floating btn-large waves-effect waves-light deep-orange lighten-2"><i class="material-icons center">home</i></a>
+			<a href="EstuveEn.html" class="btn waves-effect waves-light deep-orange lighten-2"><i class="material-icons right">location_on</i>Estuve en</a>
+			<a href="MejoresViajes.html" class="btn waves-effect waves-light deep-orange lighten-2"><i class="material-icons right">grade</i>Mejores Viajes</a>
+			<a href="Recomendaciones.html" class="btn waves-effect waves-light deep-orange lighten-2"><i class="material-icons right">assignment</i>Recomendaciones</a>
+		</div>	  		
+	</div>
+	<div class="row">
+			<!--CONTENEDOR DE LAS REDES SOCIALES-->
+			<section class="col l1 hide-on-med-and-down contenedor-redesSociales">
+				<a href="https://facebook.com" target="_black"><img src="img/face.png" class="redesSociales"></a>
+				<a href="https://www.instagram.com" target="_black"><img src="img/instagram.png" class="redesSociales"></a>
+				<a href="https://www.youtube.com" target="_black"><img src="img/youtube.png" class="redesSociales"></a>
+				<a href="https://www.gmail.com" target="_black"><img src="img/google.png" class="redesSociales"></a>
+				<a href="https://www.twitter.com" target="_black"><img src="img/twitter.png" class="redesSociales"></a>
+			</section>
+			<!--CONTENEDOR DE LAS IMAGENES-->
+			<article class="col l11 m12 s12 ">
+				<div class="col l12 s12">
+			      <ul class="tabs blue-grey lighten-4">
+			        <li class="tab col s3"><a class="active" href="#Quilla">Barranquilla</a></li>
+			        <li class="tab col s3"><a href="#Pamplona">Pamplona</a></li>
+			        <li class="tab col s3"><a href="#Mucura">Mucura</a></li>
+			      </ul>
+			    </div>
+				    <div id="Quilla" class="col s12">
+				    	<img src="img/mv.jpg" class="responsive-img">
+				    </div>
+				    <div id="Pamplona" class="col s12">
+				    	<img src="img/mv2.jpg" class="responsive-img">
+				    </div>				    
+				    <div id="Mucura" class="col s12">
+				    	<img src="img/mv3.jpg" class="responsive-img">
+				    </div>
+			</article>			
+	</div>
+</div>
+	
+    <script type="text/javascript">
+    	//AQUI FUNCIONA EL SLIDER
+    	$(document).ready(function(){
+      		$('.slider').slider();
+    	});
+    </script>
+</body>
+</html>

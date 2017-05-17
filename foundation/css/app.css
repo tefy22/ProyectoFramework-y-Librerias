@@ -1,0 +1,65 @@
+.container{
+	background: url(../../img/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment:fixed; 
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.container-general{
+	background:hsla(209, 1%, 83%,0.8);
+}
+h3, h4, h5{
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.container-cabecera1{
+	border-bottom: 1px dashed white;
+}
+.container-cabecera{
+	border-right: 1px dashed white;
+}
+.container-izq{
+	background-color: rgb(241, 241, 241);
+}
+.menu-nav > li > a{
+	font-size: 18px;
+}
+.img-noticias{
+	width: 50%;
+	transition-property: transform;
+	transition-duration: 1s;
+}
+.img-noticias:hover{
+	transform: rotate(5deg);
+}
+.container-noticias{
+	margin-top: 5%;
+	background-color: rgb(243, 210, 252 );
+	border-radius: 10px;
+}
+.container-navegacion{
+	margin-top: 3%;
+}
+.container-enlaces{
+	padding: 2%;
+}
+.fotoPersona{
+	width: 100%;
+}
+.container-comentario{
+	margin:auto;
+}
+.comentario{
+	background-color: rgb(180, 203, 248);
+}
+.parrafosComentario{
+	font-size: 14px;
+}
+.recetas{
+	background-color: rgb(250, 234, 235);
+}
+@media (max-width: 600px){
+	.menu-nav > li > a{
+		font-size: 14px;
+	}	
+}

@@ -1,0 +1,32 @@
+.contenedor{
+	background: url(../../img/fondo3.jpg);
+	background-repeat: no-repeat;
+	background-position: center justify;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+.logo{
+	width: 100px;
+}
+a{
+	margin: 1%;
+}
+.contenedor-redesSociales{
+	display: flex;
+	flex-direction: column;
+}
+.redesSociales{
+	width: 40px;
+	margin-left: 20%;
+}
+.info{
+	width: 50%;
+	float: right;
+}
+#foto{
+	width: 50%;
+	height: 50%;
+}
+
+

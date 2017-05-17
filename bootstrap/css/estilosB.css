@@ -1,0 +1,120 @@
+/*PERSONALIZAR BODY*/
+.ContainerPrincipal{
+	background:url(../../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+/*CONTENEDOR DE LA CABECERA*/
+.contenedorHeader{
+	background-color: #F9F9F2;
+}
+#logo{
+	width: 200px;
+}
+.contenedorLogos{
+	margin-top: 86px;
+}
+.logo_redeSociales{
+	width: 40px;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+/*BARRA DE NAVEGACION*/
+.contenedorNavegacion{
+	background-color: #77ABE4;
+}
+.nav >li >a{
+	color: black;
+}
+/*.nav > li > a:hover{	CAMBIAR EL COLOR 
+	background-color: red;
+}*/
+
+/*SECCION DEL CONTENIDO*/
+.contenedorContenido{
+	background-color: #F9F9F2;
+	margin-top: 1%;
+}
+.contenedorMana{
+	margin-top: 5%;
+}
+.fotoMana{	
+	-webkit-transition-property: transform;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: transform;
+	-moz-transition-duration: 1s;
+	transition-property: transform;
+	transition-duration: 1s;
+}
+.seccion2mana{
+	margin-top: 5%;
+}
+
+/*SECCION DEL COMENTARIO*/
+.fotoPersona{
+	width: 5%;
+	float: left;
+}
+form{
+	margin-left: 5%;
+}
+.fotoMana:hover{
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	transform: rotate(10deg);
+}
+.seccionComentario{
+	margin-top: 3%;
+}
+
+/*SECCION DE BUSCAR*/
+.formBuscar{
+	margin:5% 2% 5% 1%;
+}
+
+/*######################################################################################################*/
+/*FORMULARIO ARTISTAS*/
+.imagenesArtistas{
+	width: 220px;
+	height: 143px;
+	margin-top: 2%;
+}
+.videosTop10{
+	width: 100%;
+	height: 100%;
+	margin-top: 2%;
+}
+.menu{
+	font-size: 1.5em;
+}
+.menuCanciones{
+	margin-top: 2%;
+}
+/*APLICAR EL DISEÑO ADAPTATIVO*/
+@media (max-width: 768px){
+	.contenedorLogos{
+		text-align: center;	
+		margin-top: 0;	
+	}
+	.menu{
+		font-size: 1.1em;
+	}	
+	#fotoPersona{
+		width: 10%;
+		float: left;
+	}
+	form{
+		margin-left: 10%;
+	}
+	span{
+		display: block;
+	}
+}
+
+
+
+
+
+

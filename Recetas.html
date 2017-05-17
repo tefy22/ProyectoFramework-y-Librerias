@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>blog- mis Recetas</title>
+	<link rel="stylesheet" href="foundation/css/foundation.min.css" media="screen">
+  	<link rel="stylesheet" href="foundation/foundation-icons/foundation-icons.css">
+  	<link rel="stylesheet" href="foundation/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+</head>
+<body class="container">
+	<!--CABECERA-->
+  <div class="row column container-general">
+	<div class="row container-cabecera1">
+		<div class="column large-7 medium-8 hide-for-small-only container-cabecera">
+  			<h3 class="text-left">Lo mejor de lo mejor</h3>
+  			<h4 class="text-right">Blog Cocinado con Tefy..!!</h4>
+  			<h4 class="text-right">Gastronomia</h4>
+  		</div>
+  		</div>
+  		<!--dos container uno para la informacion y otro para contenido-->
+  		<!--INFORMACION: contiene la barra de navegacion, favoritos, etc...-->
+  	<div class="row">
+  		<!--1° COLUMNA-->
+  		<div class="row column large-5 medium-5 container-navegacion">
+  			<!--COLUMNA DE LA SECCION BUSCAR-->
+  			<div class="column large-12 medium-12 hide-for-small-only">
+  				<form class="input-group" action="#">
+  					<input class="input-group-field" type="text" placeholder="Buscar..." autofocus>
+  					<div class="input-group-button">
+  						<button class="button"><i class="step fi-magnifying-glass size-48"></i></button>
+  					</div>
+  				</form>
+  			</div>
+  			<!--MENU DE NAVEGACION-->
+  			<div class="column large-12 medium-12 small-12 container-izq container-enlaces">
+  				<ul class="menu vertical menu-nav">
+  					<li><a class="hollow button expanded" href="BlogGastronomia.html">Inicio</a></li>
+  					<li><a class="hollow button expanded" href="PlatoFavorito.html">Mi Plato Favorito</a></li>
+  					<li><a class="hollow button expanded" href="Recetas.html">Mis Recetas</a></li>
+  				</ul>
+  			</div>
+  			<!--SECCION DE FAVORITOS-->
+  			<div class="column large-12 medium-12 small-12 container-izq">
+          <h5>Favoritos:</h5>
+          <div class="row">
+            <div class="column large-4 medium-10 small-12 text-center">
+              <figure>
+                <img src="img/comida1.jpg" class="thumbnail" alt="churrasco">
+                <figcaption>Churrasco</figcaption>
+              </figure>             
+            </div>
+            <div class="column large-4 medium-10 small-12 text-center">
+              <figure>
+                <img src="img/comida2.jpg" class="thumbnail" alt="Palitos">
+                <figcaption>Palitos de pollo</figcaption>
+              </figure>
+            </div>
+            <div class="column large-4 medium-10 small-12 text-center">
+              <figure>
+                <img src="img/comida3.jpg" class="thumbnail" alt="Flan">
+                <figcaption>Flan de fresa</figcaption>      
+              </figure>
+            </div>
+            <div class="column large-4 medium-10 small-12 text-center">
+              <figure>
+                <img src="img/comida4.jpg" class="thumbnail" alt="Sopa">
+                <figcaption>Sopa!</figcaption>
+              </figure>
+            </div>
+            <div class="column large-4 medium-10 small-12 text-center">
+              <figure>
+                <img src="img/comida5.jpg" class="thumbnail" alt="Filete">
+                <figcaption>Filete de pescado frito</figcaption>
+              </figure>
+            </div>
+            <div class="column large-4 medium-10 small-12 text-center">
+              <figure>
+                <img src="img/comida6.jpg" class="thumbnail" alt="Ensalada">
+                <figcaption>Ensalada de Frutas</figcaption>
+              </figure>
+            </div>
+          </div>
+            <!--SECCION DE HISTORIAL-->
+            <div class="container-izq column large-12 medium-12 hide-for-small-only">
+            	<h5>Historial:</h5>
+            	<div class="column large-12 medium-12">
+            		<ul class="menu vertical">
+            			<li><a href="https://www.elmejornido.com/es/recetas/recetas-de-postres" target="_blank" class="">Postres con productos Nestle</a></li>
+            			<li><a href="http://www.dulcespostres.com/category/recetas-de-postres/recetas-de-postres-frios/" target="_blank" class="list-group-item">Postres frios</a></li>
+            			<li><a href="http://www.postres.net/recetas/faciles" target="_blank">Postres caseros</a></li>
+            			<li><a href="http://remedioscaserosparaadelgazar.net/los-4-remedios-caseros-para-adelgazar-mas-faciles-de-hacer/" target="_blank">Recetas para bajar de peso</a></li>
+            			<li><a href="https://encolombia.com/vida-estilo/alimentacion/recetas/pollo/" target="_blank">cocinando Pollo!</a></li>
+            			<li><a href="https://www.recetasgratis.net/Recetas-de-Pescado-listado_receta-12_1.html" target="_blank">Lo mejor, el pescado!</a></li>
+            		</ul>
+            	</div>
+            </div>
+  			</div>
+  		</div>
+  		<!--2° COLUMNA-->
+  		<div class="column large-7 medium-7">
+  			<!--SECCION PLATO FAVORITO-->
+        <div class="row container-noticias">
+  			 <div class="column large-12 small-12">
+  				<h3>Mis Recetas!</h3>
+  					<ul class="tabs" data-active-collapse="true" data-tabs id="collapsing-tabs" >
+              <li class="tabs-title"><a href="#SopaPatacon" aria-selected="true">Sopa de Patacon</a></li>
+              <li class="tabs-title"><a href="#Albondigas">Albondigas</a></li>
+              <li class="tabs-title"><a href="#postre">Postre de tres leches</a></li>
+            </ul>
+            <div class="tabs-content recetas" data-tabs-content="collapsing-tabs">
+              <div class="tabs-panel" id="SopaPatacon">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>2 platanos verdes</li>
+                  <li>Gusto: pollo preferiblemente</li>
+                  <li>Arveja</li>
+                  <li>Ajo</li>
+                  <li>Cebolla</li>
+                  <li>Sal</li>
+                </ul>
+                <div class="text-center">
+                  <img src="img/recetas1.jpg" class="thumbnail img-noticias">
+                </div>
+                <p><strong>Procediiento:</strong> Bueno primero hacemos los patacones, los fritamos y los apastamos, una vez se haya cocinado el gusto con la arveja, cebolla y el ajo y tengamos la sopa lista añadimos la sal y apagamos. Luego procedemos a hechar los patacones ya fritos y esperamos unnos 10 min a que suelte y ya!</p>
+              </div>
+              <div class="tabs-panel" id="Albondigas">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>1/2 kg de carne picada</li>
+                  <li>1 huevo</li>
+                  <li>50 gr de miga de pan</li>
+                  <li>1 diente de ajo</li>
+                  <li>harina</li>
+                  <li>100 ml de leche</li>
+                  <li>aceite de oliva virgen extra</li>
+                  <li>sal</li>
+                  <li>perejil</li>
+                </ul>
+                <h5>Para la salsa:</h5>
+                <ul>
+                  <li>2 cebollas</li>
+                  <li>1 zanahoria</li>
+                  <li>2 dientes de ajo</li>
+                  <li>1 cucharada de harina</li>
+                  <li>1 vaso de vino blanco</li>
+                  <li>aceite de oliva virgen extra</li>
+                  <li>sal</li>
+                </ul>
+                <div class="text-center">
+                  <img src="img/recetas2.jpg" class="thumbnail img-noticias">
+                </div>
+                <p><strong>Procedimiento:</strong> Pon en remojo la miga de pan en la leche.
+                Para hacer las albóndigas, pica finamente el ajo y ponlo en un bol. Incorpora la carne picada, el huevo, la miga de pan remojada en la leche, un poco de perejil picado y una pizca de sal. Mezcla todo bien.
+                Coge pequeñas porciones de masa y dales forma redondeada de albóndiga. Pásalas por harina y fríelas en una sartén con abundante aceite. Retira del fuego y reserva.
+                Para hacer la salsa, pica finamente las cebollas, la zanahoria y los ajos. Rehoga las verduras en una sartén con un poco de aceite hasta que cojan color. Sazona, añade la harina y rehoga brevemente. Vierte el vino y, si hiciera falta, un poco de agua o caldo. Cocina la salsa durante 20-25 minutos a fuego lento.
+                Pasa las verduras por el pasapurés, coloca la salsa en una cazuela e introduce las albóndigas.
+                Cocina las albóndigas con la salsa de verduras a fuego suave durante 10 minutos aproximadamente.
+                Sirve las albóndigas en salsa y si lo deseas, decora con perejil.</p>
+              </div>
+              <div class="tabs-panel" id="postre">
+                <h5>Ingredientes:</h5>
+                <ul>
+                  <li>1 lata de leche condensada</li>
+                  <li>1 lata de crema de leche</li>
+                  <li>1 taza de leche líquida</li>
+                  <li>1 paquete de gelatina sin sabor</li>
+                  <li>1 paquete de galletas de leche</li>
+                </ul>
+                <div class="text-center">
+                  <img src="img/recetas3.jpg" class="thumbnail img-noticias">
+                </div>
+                <h5>Procedimiento:</h5>
+                <ol>
+                  <li>Para preparar nuestro postre de tres leches frío comenzaremos con disolver la gelatina sin sabor en una taza de agua fría.</li>
+                  <li>Poner a hervir el agua con la gelatina ya disuelta y dejar enfriar. Una vez frío licuaremos la mezcla con las tres leches (condensada, crema de leche y leche líquida normal)</li>
+                  <li>Mientras tanto, en un recipiente de vidrio, preferiblemente refractario, iremos armando una base o cama de galletas. Para ello, las humedeceremos, remojándolas un poco antes de colocarlas en el recipiente.</li>
+                  <li>Cuando tengas la base de galletas lista, se agrega todo el contenido de la licuadora y se debes meter en la nevera o refrigerador hasta que cuaje la mezcla. El proceso de nuestro postre de tres leches frío puede tardar un día.</li>
+                </ol>
+              </div>
+            </div>
+
+  			</div>
+
+      </div>
+      </div>
+        
+  		</div>
+  	</div>	
+  	
+</div>
+
+
+
+  		
+
+	<script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    
+    <script src="foundation/js/app.js"></script>
+</body>
+</html>
